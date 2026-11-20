@@ -36,8 +36,9 @@
 
         .btn-kembali { background-color: transparent; border: 1px solid #ccc; color: #333; margin-bottom: 1rem; display: inline-block; text-decoration: none; padding: 0.5rem 1rem;}
     </style>
+    <link rel="stylesheet" href="{{ asset('css/joybite-theme.css') }}">
 </head>
-<body>
+<body class="page-reviews">
     <div class="container">
         <a href="{{ url('/pembeli/menu.php') }}" class="btn-kembali">Kembali ke Menu</a>
         <h1>Ulasan Produk JoyBite</h1>

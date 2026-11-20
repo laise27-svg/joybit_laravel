@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joybite - Validasi Produk</title>
+    <title>JoyBite - Validasi Produk</title>
     <style>
         :root {
             --primary-bg: #FFFBE9;    
@@ -210,11 +210,12 @@
         .btn-cancel { background: #eee; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; }
         .btn-save { background: var(--accent-orange); color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/joybite-theme.css') }}">
 </head>
-<body>
+<body class="page-admin-validations">
 
     <aside class="sidebar">
-        <div class="logo">Joybite</div>
+        <div class="logo">JoyBite</div>
         <ul class="nav-menu">
             <li class="nav-item" onclick="window.location.href='{{ url('/admin/user_admin.php') }}'">Manajemen User</li>
             <li class="nav-item active">Validasi Produk</li>
@@ -224,7 +225,7 @@
 
     <main class="main-content">
         <header>
-            <h1>Product Validation</h1>
+            <h1>Validasi Produk</h1>
             <button class="btn-add" onclick="openModal()">+ Tambah Produk</button>
         </header>
 

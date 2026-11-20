@@ -119,12 +119,13 @@
             }
         }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/joybite-theme.css') }}">
 </head>
-<body>
+<body class="page-login">
 
     <div class="login-wrapper">
         <div class="login-left">
-            <h1>Selamat Datang<br>di Joybite!</h1>
+            <h1>Selamat Datang<br>di JoyBite!</h1>
         </div>
 
         <div class="login-right">
