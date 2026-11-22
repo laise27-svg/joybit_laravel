@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joybite - Manajemen User</title>
+    <title>JoyBite - Manajemen User</title>
     <style>
         :root {
             --primary-bg: #FFFBE9;    
@@ -153,11 +153,12 @@
         .btn-cancel { background: #eee; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; }
         .btn-save { background: var(--accent-orange); color: white; border: none; padding: 10px 20px; border-radius: 10px; cursor: pointer; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/joybite-theme.css') }}">
 </head>
-<body>
+<body class="page-admin-users">
 
     <aside class="sidebar">
-        <div class="logo">Joybite</div>
+        <div class="logo">JoyBite</div>
         <ul class="nav-menu">
             <li class="nav-item active">Manajemen User</li>
             <li class="nav-item" onclick="window.location.href='{{ url('/admin/validasi.php') }}'">Validasi Produk</li>

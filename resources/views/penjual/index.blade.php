@@ -43,11 +43,16 @@
         .logout-btn:hover { background-color: #dc2626; }
         .clearfix::after { content: ""; clear: both; display: table; }
     </style>
+    <link rel="stylesheet" href="{{ asset('css/joybite-theme.css') }}">
 </head>
-<body>
+<body class="page-seller">
 
     <div class="container">
         <div class="clearfix">
+            <a href="{{ url('/penjual/index.html') }}" class="seller-brand">
+                <span class="material-symbols-outlined">bakery_dining</span>
+                JoyBite
+            </a>
             <button class="logout-btn" onclick="logout()">Keluar / Logout</button>
         </div>
 
